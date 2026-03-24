@@ -1,1 +1,1 @@
-Abeidskrav M12 - Kristian Skramstad
+Abeidskrav M12
