@@ -11,15 +11,14 @@ dx = (b - a) / n
 print ("delta x er", dx)
 
 for f in fart:
-    dist += f * 0.25        #Et kvarter = 0.25 timer
+    dist += f * dx
+
+    #dist += f * 0.25        #Et kvarter = 0.25 timer
 #dist += (-0.5 * fart[0] + 0.5 * fart[-1]) * 0.25
 
-print (dist)
+#print ("f-1", fart[-1])
+print ("distanse = ", dist)
 
-def f(x):
-    return 3*sqrt(x)
-
-s = 0
 """
 for i in range (n):
     s += f(a + i * dx) *dx
