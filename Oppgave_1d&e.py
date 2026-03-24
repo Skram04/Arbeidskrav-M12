@@ -10,7 +10,7 @@ b = v0
 print ("test", v0 + m.sqrt(v0**2 * -4 * 4.905 * -15.3) / 2 * 4.905)
 
 def f(x):
-    return v-v0 / g
+    return (v-v0) / g
 
 def y(x): 
     pluss = (150 + m.sqrt(150**2 * (-4) * 4.905 * (-15.3))) / (2 * 4.905)
