@@ -7,4 +7,4 @@ h = 0.001 #Definerer variabelen h som 0.001
 while f(x) <= f(x+h):   #While loop som kjører enn så lenge f(x) er mindre eller lik f(x+h)
     x=x+h               #Øker x med h som er veldig lite, derav derivasjon
 
-print (x)               #Skriver ut variabelen x
+print (x)               #Skriver ut variabelen x 

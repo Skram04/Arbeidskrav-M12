@@ -6,4 +6,4 @@ for f in fart:
 
 dist += (-1/2 * fart[0] - 1/2 * fart[-1] ) * 0.25               #Fjerner halvparten av første og siste punkt
 
-print ("Distansen kjørt er tilnærmet lik ", dist, "km")
+print ("Distansen kjørt er tilnærmet lik ", dist, "km") 
