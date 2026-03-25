@@ -9,4 +9,4 @@ def f(x):
 while f(x) <= f(x+h):                       #Finner toppunktet til funksjonen
     x += h
 
-print ("Tiden når kulen er på det høyeste punktet er", x) 
+print (f"Tiden når kulen er på det høyeste punktet er {x:.2f}") 
