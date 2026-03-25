@@ -1,3 +1,5 @@
+#Mengde igjen av Rn-219 etter 0, 10 og 20 sekunder
+
 N0 = 2
 
 def N(t):
@@ -5,4 +7,4 @@ def N(t):
 
 for i in range(3):
     sekunder = i * 10
-    print (N(sekunder), "Gram etter", sekunder, "sekunder")
+    print (round(N(sekunder), 3), "gram etter", sekunder, "sekunder")
