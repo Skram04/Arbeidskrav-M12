@@ -8,5 +8,5 @@ def t():                                  #Funksjon som finner tiden til toppunk
 def s():
     return (v + v0) / 2 * t()       #Funksjon som finner hvor langt opp kula går
 
-print ("Tid = ", t())
-print ("Strekning = ", s())        
+print (f"Tid = {t():.1f}")   
+print (f"Strekning = {s():.1f}")    
