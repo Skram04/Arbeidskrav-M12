@@ -1,12 +1,12 @@
-v = 0       #m/s   
 v0 = 150    #m/s**2
 g = -9.81   #m/s**2
+h = 0.001
+x = 0
 
-def t():                                  #Funksjon som finner tiden til toppunktet
-    return v-v0 / g
+def f(x):
+    return v0 * x + 0.5 * g * x**2
 
-def s():
-    return (v + v0) / 2 * t()             #Funksjon som finner hvor langt opp kula går
+while f(x) <= f(x+h):
+    x += h
 
-print (f"Det øverste punktet er {s():.1f} meter oppover") 
-print (f"Tiden til det øverste punktet er {t():.1f} sekunder")   
+print ("Tiden når kulen er på det høyeste punktet er", x)
