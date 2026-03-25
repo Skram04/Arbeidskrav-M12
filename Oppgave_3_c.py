@@ -7,4 +7,4 @@ def N(t):
 
 for i in range(3):                                  #Setter antall perioder den skal kjøre funksjonen
     sekunder = i * 10
-    print (round(N(sekunder), 3), "gram etter", sekunder, "sekunder") 
+    print (f"{N(sekunder):.2f} gram etter {sekunder} sekunder")
