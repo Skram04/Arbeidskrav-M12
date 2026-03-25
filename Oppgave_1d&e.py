@@ -1,12 +1,8 @@
-v = 0
-v0 = 150
-g = -9.81
-
-def f():
+def f(v,v0,g):
     return v-v0 / g
 
-def y():
-    return (v + v0) / 2 * f()
+def y(v,v0,g):
+    return (v + v0) / 2 * f(v,v0,g)
 
-print ("Tid = ", f())
-print ("Strekning = ", y())
+print ("Tid = ", f(0, 150, -9.81))
+print ("Strekning = ", y(0, 150, -9.81))
