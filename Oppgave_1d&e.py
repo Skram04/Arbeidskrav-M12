@@ -6,7 +6,7 @@ def t():                                  #Funksjon som finner tiden til toppunk
     return v-v0 / g
 
 def s():
-    return (v + v0) / 2 * t()       #Funksjon som finner hvor langt opp kula går
+    return (v + v0) / 2 * t()             #Funksjon som finner hvor langt opp kula går
 
-print (f"Tid = {t():.1f}")   
-print (f"Strekning = {s():.1f}")    
+print (f"Det øverste punktet er {s():.1f} meter oppover") 
+print (f"Tiden til det øverste punktet er {t():.1f} sekunder")   
